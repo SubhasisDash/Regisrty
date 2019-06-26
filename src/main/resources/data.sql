@@ -1,0 +1,9 @@
+DROP TABLE IF EXISTS file_registry;
+ 
+CREATE TABLE file_registry (
+  id INT AUTO_INCREMENT  PRIMARY KEY,
+  app_name VARCHAR(250) NOT NULL,
+  category VARCHAR(250) NOT NULL,
+  file_name VARCHAR(250) DEFAULT NULL
+);
+ 
